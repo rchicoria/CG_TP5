@@ -166,13 +166,10 @@ int main(int argc, char** argv){
 	glutInitDisplayMode (GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH );
 	glutInitWindowSize (wScreen, hScreen); 
 	glutInitWindowPosition (100, 100); 
-	glutCreateWindow ("Trabalho Prático 5");
+	glutCreateWindow ("Cenas 5");
   
 	init();
-	
-	/*
-	o chico e gay
-	*/
+
 	glutKeyboardFunc(keyboard);
 	glutDisplayFunc(display); 
 	glutReshapeFunc(resizeWindow);
