@@ -170,6 +170,9 @@ int main(int argc, char** argv){
   
 	init();
 	
+	/*
+	o chico e gay
+	*/
 	glutKeyboardFunc(keyboard);
 	glutDisplayFunc(display); 
 	glutReshapeFunc(resizeWindow);
